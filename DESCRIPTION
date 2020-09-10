@@ -1,0 +1,17 @@
+Package: dbnlearn
+Type: Package
+Title: Dynamic Bayesian Network Structure Learning, Parameter Learning and Forecasting
+Version: 0.1.0
+Depends: R (>= 3.4) 
+Authors@R: person("Robson", "Fernandes", email = "robson.fernandes@usp.br", role = c("aut", "cre", "cph"))
+Description: It allows to learn the structure of univariate time series, learning parameters and forecasting. 
+             Implements a model of Dynamic Bayesian Networks with temporal windows, 
+             with collections of linear regressors for Gaussian nodes, 
+             based on the introductory texts of Korb and Nicholson (2010) <doi:10.1201/b10391> and 
+             Nagarajan, Scutari and Lèbre (2013) <doi:10.1007/978-1-4614-6446-4>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Repository: CRAN
+Imports: bnlearn, bnviewer, ggplot2

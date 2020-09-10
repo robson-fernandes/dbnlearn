@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "predict")
+export(dbn.preprocessing)
+export(dbn.learn)
+export(dbn.fit)
+export(dbn.predict)
